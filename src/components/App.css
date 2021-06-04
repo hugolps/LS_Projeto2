@@ -1,0 +1,236 @@
+/* Main */
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+margin: auto;
+font: normal normal bold 1em raleway-semibold,raleway,sans-serif;;
+
+}
+main {
+  width: auto;
+  justify-content: center;
+  padding: 50px
+
+}
+
+.main-loja {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+.nome-banda-loja {
+  font-family: 'Rozha One', serif;
+  font-size: 2.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.nome-banda-loja:hover {
+  color: #f8be00;
+}
+
+.principal-loja-titulo{
+  color: #D5423E;
+  font: normal normal bold 2em raleway-semibold,raleway,sans-serif;;
+  width: 100%;
+}
+
+.principal-loja-titulo:first-child {
+    margin-top: 150px;
+}
+
+.loja-principal {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.arrow-container {
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.img-arrow {
+  margin: 1rem;
+  height: 50px;
+  fill: red;
+}
+
+
+.principal-camisas {
+  height:50%;
+  display: flex;
+  width: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.principal-albuns {
+  display: flex;
+  width: auto;
+  justify-content: space-evenly;
+}
+
+.principal-camisa-img{
+  margin-top: 0px;
+
+}
+
+.principal-cd-img{
+
+}
+
+.principal-camisa-img img{
+  height: 250px;
+  width: 250px;
+  margin-top: 3.5em;
+
+}
+
+.principal-cd-img img{
+  height: 250px;
+  width: 250px;
+}
+
+.principal-camisa-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 33.3333333%;
+}
+
+.camisa-item {
+  margin-top: 1rem;
+  width: auto;
+}
+
+.camisa-item {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  justify-content: center;
+}
+.camisa-item > h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.principal-camisa-preco {
+  margin-top: 0.5em;
+  font-size: 1.3em;
+}
+
+.principal-camisa-botao {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    background-color: rgba(204, 204, 204, 1);
+    border: none;
+    transition: all .4s ease;
+}
+
+.principal-camisa-botao:hover {
+  background-color: #f8be00;
+}
+
+.principal-loja-total {
+  font: normal normal bold 1em raleway-semibold,raleway,sans-serif;;
+}
+
+.endereco-comprar {
+  padding-top: 200px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.cep {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.endereco-campos {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.form-group > small {
+  font-size: 0.8em;
+  margin-top: 5px;
+  font: normal normal bold 1em raleway-semibold,raleway,sans-serif;;
+
+}
+
+
+.endereco-input {
+  height: 30px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.endereco-input {
+  width: auto;
+  padding-left: 10px;
+}
+
+.numero-cep {
+  width: 50%;
+}
+
+.cep-input {
+  width: 50%;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.cep-enviar {
+  width: 45%;
+  align-items: center;
+  justify-content: center;
+}
+
+.cep-botao {
+  width: 100%;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: normal 1em raleway-semibold,raleway,sans-serif;;
+
+}
+
+.cep-botao:hover {
+  background-color: #f8be00;
+}
+
+.cep-botao:active {
+  background-color: darker #f8be00;
+  filter: opacity(70%);
+
+}
+
+.numero-cep {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;}
